@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Gambito-Pasteles</title>
+</head>
+<body>
+    <div class="title">
+        <h1>Bienvenido a la Pasteleria "Gambito"</h1>
+    </div>
+
+    <section class="form-formulario">
+        <h2>Para hacer un pedido, porfavor llene el siguiente formulario:</h2>
+        <form action="">
+            <h3>Ingrese sus Nombres y Apellidos</h3>
+            <input type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+            <input type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
+
+            <h3>Ingrese su Telefono</h3>
+            <input type="text" name="number" id="number" placeholder="Ingrese su numero">
+
+            <h3>Ingrese su Correo </h3>
+            <input type="email" name="email" id="email" placeholder="Ingrese su email">
+
+            <h3>Seleccion la Cantidad de Personas:</h3>
+            <select name="Cantidad de Personas">
+                <option>De 2 a 4 *$200*</option>
+                <option>De 5 a 10 *$300*</option>
+                <option>De 11 a 20 *$450*</option>
+                <option>Mas de 20 *$600*</option>    
+            </select>
+
+            <h3>¿De que sabor/es quiere el pastel?</h3>
+            <ul>
+                <li>Fresa *$50*</li>
+                <li>Chocolate *$50*</li>
+                <li>Vainilla *$60*</li>
+                <li>Coco *$40*</li>
+            </ul>
+            <input type="checkbox" name ="Fresa" value="1"><label>Fresa</label>
+            <input type="checkbox" name ="Chocolate     " value="1"><label>Chocolate</label>
+            <input type="checkbox" name ="Vainilla" value="1"><label>Vainilla</label>
+            <input type="checkbox" name ="Coco" value="1"><label>Coco</label>
+            
+            <h3>¿Qué adornos quiere en el pastel?</h3>
+            <ul>
+                <li>Canasta *$100*</li>
+                <li>Naked cake*$50*</li>
+                <li>Texturizados *$150*</li>
+                <li>Drip cakes *$100*</li>
+                <li>Lettering *$100*</li>
+            </ul>
+            <input type="checkbox" name ="Canasta" value="1"><label>Canasta</label>
+            <input type="checkbox" name ="Naked cake" value="1"><label>Naked cake</label>
+            <input type="checkbox" name ="Texturizados en 3D" value="1"><label>Texturizados en 3D</label>
+            <input type="checkbox" name ="Drip cakes" value="1"><label>Drip cakes</label>
+            <input type="checkbox" name ="Lettering" value="1"><label>Lettering</label>
+
+            <h3>Ingrese la descripcion del producto</h3>
+            <textarea name="description" id="description" cols="40" rows="5"></textarea>
+
+            <section class="send">
+                <p>Revise si todo esta de manera correcta y envie su pedido con el siguiente boton  </p>
+                <input class="boton" type="submit" value="Enviar"> 
+            </section>
+        </form>
+    </section>
+    
+</body>
+</html>
