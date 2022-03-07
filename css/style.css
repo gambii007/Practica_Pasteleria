@@ -35,7 +35,15 @@ body {
     padding: 12px;
 }
 
-/**============Login=====================*/
+.form-formulario a{
+    width: 80%;
+    padding: 10px;
+    margin: 50px;
+    color: black;
+    background: #10B393;
+    border-radius: 20px;
+}
+/**============index=====================*/
 
 .form-login{
     width: 600px;
@@ -67,9 +75,14 @@ body {
 .form-login img{
     margin-top: 10px;
 }
+
+.form-login .datos p{
+    color: #062B6F;
+    margin: 0%;
+}
 /**============Pastelero====================*/
 .form-pastelero{
-    width: 900px;
+    width: 950px;
     background: #B6E7BF;
     padding: 40px;
     margin: auto;
@@ -79,8 +92,25 @@ body {
     text-align:  center;
 }
 
-.sabores,.decoraciones{
+.sabores,.decoraciones,.pedidos{
     display: flex;
     justify-content: space-evenly;    
     background: #07A384;
+}
+
+.form-pastelero button{
+    margin: 5px;
+}
+
+.form-pastelero a{
+    width: 80%;
+    padding: 10px;
+    margin: 50px;
+    color: black;
+    background: #10B393;
+    border-radius: 20px;
+}
+.form-pastelero a:hover{
+    color: white;
+    background: #062B6F;
 }
